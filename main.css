@@ -41,40 +41,43 @@ header {
 }
 
 .content__cities {
-  border-radius: 5px;
-  border: 1px solid red;
-  padding: 0 5px;
-  flex-basis: 25%;
-  background-color: lightsalmon;
-  /* font: italic 1.2em "Fira Sans", serif; */
-  font: italic 1.2em "Fira Sans", serif;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+    padding: 0 5px;
+    flex-basis: 25%;
+    background-color: lightsalmon;
+    /* font: italic 1.2em "Fira Sans", serif; */
+    font: italic 1.2em "Fira Sans", serif;
 }
 
 .content__landmarks {
-  border-radius: 5px;
-  border: 1px solid red;
-  padding: 0 5px;
-  flex-basis: 25%;
-  background-color: lightsalmon;
-  font: italic 1.2em "Fira Sans", serif;
+    border-radius: 5px;
+    /* border: 1px solid red;    */
+    padding: 0 5px;
+    flex-basis: 25%;
+    background-color: lightsalmon;
+    font: italic 1.2em "Fira Sans", serif;
 }
 
 .content__leaders {
-  border-radius: 5px;
-  border: 1px solid red;
-  padding: 0 5px;
-  flex-basis: 25%;
-  background-color: lightsalmon;
-  font: italic 1.2em "Fira Sans", serif;
+    border-radius: 5px;
+    /* border: 1px solid red;  */
+    padding: 0 5px;
+    flex-basis: 25%;
+    background-color: lightsalmon;
+    font: italic 1.2em "Fira Sans", serif;
 }
 
 .content h3 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* font-weight: bold; */
-  text-align: left;
-  /* font: italic 1.2em "Fira Sans", serif; */
-}
 
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-weight: bold; */
+    text-align: left;
+    font: italic 1.4em "Fira Sans", serif;  
+    font-weight: bolder; 
+}  
+
+/* not using this css changed name with MMM */
 .highlightMMM {
   /* border: 1px solid red; */
   padding: 0 5px;
@@ -91,7 +94,8 @@ aside {
   padding: 0 5px;
 }
 
-/* nav span {
+  /* not using this css changed name with SSS */
+  nav spanSSS {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-  } */
+  }

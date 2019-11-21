@@ -1,105 +1,97 @@
-@import 'nav.css';
+@import "nav.css";
 
 body {
-    background-color: lightseagreen;
-    box-sizing: border-box;
-  }
-  
-  .countryImage {
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: space-evenly;
-    background-color: lightsalmon;
-  }
-
-  header {
-    /* border: 2px solid gray; */
-    /* box-shadow: 1px 2px 2px gray; */
-    padding: 10px 8px;
-    background-color: beige;
-    font: italic 1.2em "Fira Sans", serif;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    font-weight: bold;
-    text-align: center;
-  }
-
-  .content {
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 75%;
-    justify-content: space-evenly;
-    /* background-color: lightsalmon; */
-  }
-  
-  .content li {
-    /* font: italic 1.2em "Fira Sans", serif; */
-    font: italic 1.2em "Fira Sans", serif;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    font-weight: bold;
-    text-align: left;
-    list-style-type: circle;
-    
+  background-color: lightseagreen;
+  box-sizing: border-box;
 }
 
+.countryImage {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
+  background-color: lightsalmon;
+}
+
+header {
+  /* border: 2px solid gray; */
+  /* box-shadow: 1px 2px 2px gray; */
+  padding: 10px 8px;
+  background-color: beige;
+  font: italic 1.2em "Fira Sans", serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-weight: bold;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 75%;
+  justify-content: space-evenly;
+  /* background-color: lightsalmon; */
+}
+
+.content li {
+  /* font: italic 1.2em "Fira Sans", serif; */
+  font: italic 1.2em "Fira Sans", serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-weight: bold;
+  text-align: left;
+  list-style-type: circle;
+}
 
 .content__cities {
-    border-radius: 5px;
-    border: 1px solid red;
-    padding: 0 5px;
-    flex-basis: 25%;
-    background-color: lightsalmon;
-    /* font: italic 1.2em "Fira Sans", serif; */
-    font: italic 1.2em "Fira Sans", serif;
+  border-radius: 5px;
+  border: 1px solid red;
+  padding: 0 5px;
+  flex-basis: 25%;
+  background-color: lightsalmon;
+  /* font: italic 1.2em "Fira Sans", serif; */
+  font: italic 1.2em "Fira Sans", serif;
 }
 
 .content__landmarks {
-    border-radius: 5px;
-    border: 1px solid red;   
-    padding: 0 5px;
-    flex-basis: 25%;
-    background-color: lightsalmon;
-    font: italic 1.2em "Fira Sans", serif;
+  border-radius: 5px;
+  border: 1px solid red;
+  padding: 0 5px;
+  flex-basis: 25%;
+  background-color: lightsalmon;
+  font: italic 1.2em "Fira Sans", serif;
 }
 
 .content__leaders {
-    border-radius: 5px;
-    border: 1px solid red; 
-    padding: 0 5px;
-    flex-basis: 25%;
-    background-color: lightsalmon;
-    font: italic 1.2em "Fira Sans", serif;
+  border-radius: 5px;
+  border: 1px solid red;
+  padding: 0 5px;
+  flex-basis: 25%;
+  background-color: lightsalmon;
+  font: italic 1.2em "Fira Sans", serif;
 }
-
-
-
 
 .content h3 {
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* font-weight: bold; */
-    text-align: left;
-    /* font: italic 1.2em "Fira Sans", serif; */
- 
-
-}  
-
-.highlightMMM {
-
-    /* border: 1px solid red; */
-    padding: 0 5px;
-    flex-basis: 25%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-weight: bold; */
+  text-align: left;
+  /* font: italic 1.2em "Fira Sans", serif; */
 }
 
-  img {
-    max-width: 100%;
-  }
-  
-  aside{
-    flex-basis: 30%;
-    border: 1px solid red;
-    padding: 0 5px;
-  }
+.highlightMMM {
+  /* border: 1px solid red; */
+  padding: 0 5px;
+  flex-basis: 25%;
+}
 
-  nav spanSSS {
+img {
+  max-width: 100%;
+}
+
+aside {
+  flex-basis: 30%;
+  border: 1px solid red;
+  padding: 0 5px;
+}
+
+/* nav span {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+  } */

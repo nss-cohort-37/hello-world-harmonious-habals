@@ -1,0 +1,28 @@
+nav {
+    /* border: 2px solid gray; */
+    /* box-shadow: 1px 2px 2px gray; */
+    padding: 10px 8px;
+    background-color: beige;
+  }
+  
+  nav span {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-weight: bolder;
+    font: italic 1.3em "Fira Sans", serif;
+    
+
+  }
+  
+  .nav__links {
+    float: right;
+  }
+  
+  .nav__links a {
+    /* border: 2px solid gray; */
+    border-radius: 5px;
+    /* box-shadow: 1px -1px 2px gray; */
+    text-decoration: none;
+    padding: 5px 8px;
+    background-color: cyan;
+    /* color: grey; */
+  }

@@ -3,7 +3,7 @@ const highlightBackgroundColor = () => {
 
     for (const highlight of highlightSelector) {
         highlight.addEventListener("mouseover", (theMouseOverEvent) => {
-            highlight.style.color = "darkgoldenrod";
+            highlight.style.color = "white";
         })
 
         highlight.addEventListener("mouseout", (theMouseOutEvent) => {

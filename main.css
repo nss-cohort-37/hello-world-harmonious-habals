@@ -58,7 +58,16 @@ header {
   background-color: lightsalmon;
   font: italic 1.2em "Fira Sans", serif;
 }
-
+.dialog {
+  padding: 1.5em;
+  height: 220px;
+  width: 200px;
+}
+.btn {
+  position: relative;
+  top: 1px;
+  padding: 2px;
+}
 .content__leaders {
   border-radius: 5px;
   border: 1px solid red;

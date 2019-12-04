@@ -9,29 +9,28 @@ const CitiesComponent = cities => {
       <span class="thumbnail"> 
         <li>${cities.city_1}</li>
         <span>
-          <img class="info-pic-size" src="${cities.image_1}" alt="Athens Greece" />
+          <img class="info-pic-size" src="${cities.image_1}" alt="${cities.city_1}" />
           <br />
           <h4>${cities.city_1}</h4>
-          <p>Athens was the largest and most powerful Greek state. It was a city with lots of beautiful public buildings, shops and public baths. The people of Athens lived below the  Acropolis (rocky hill).
-          </p>
+          <p>${cities.city_1_info}</p>
         </span>
       </span>
       <span class="thumbnail"> 
         <li>${cities.city_2}</li>
         <span>
-          <img class="info-pic-size" src=${cities.image_2} alt="Thessaloniki Greece" />
+          <img class="info-pic-size" src=${cities.image_2} alt="${cities.city_2}" />
           <br />
           <h4>${cities.city_2}</h4>
-          <p>Thessaloniki is the second largest city of Greece and the most important centre of the area. Built near the sea, it is a modern metropolis bearing the marks of its stormy history and its cosmopolitan character, which give it a special beauty and charm.</p>
+          <p>${cities.city_2_info}</p>
         </span>
       </span>
       <span class="thumbnail"> 
         <li>${cities.city_3}</li>
         <span>
-          <img class="info-pic-size" src="${cities.image_3}" alt="Santorini Greece" />
+          <img class="info-pic-size" src="${cities.image_3}" alt="${cities.city_3}" />
           <br />
           <h4>${cities.city_3}</h4>
-          <p>Located in the heart of the vast Aegean sea, Santorini boasts a unique landscape! The famous Santorini caldera, amazing red and black volcanic beaches, and, of course, volcano's crater in Nea Kameni, all remind the origins of the island, which was shaped by volcanic eruptions.</p>
+          <p>${cities.city_3_info}</p>
         </span>
       </span>
     </ul>

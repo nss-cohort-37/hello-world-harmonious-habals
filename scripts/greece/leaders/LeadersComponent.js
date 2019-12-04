@@ -7,7 +7,7 @@ const LeadersComponent = leaders => {
      <span class="thumbnail"> 
      <li>${leaders.headOfState}</li>
      <span>
-       <img src="${leaders.image}" alt="${leaders.headOfState}" />
+       <img class="info-pic-size" src="${leaders.image}" alt="${leaders.headOfState}" />
        <br />
        <h4>${leaders.headOfState}</h4>
        <p>Prokopios Pavlopoulos, commonly shortened to Prokopis, is a Greek lawyer, university professor and politician serving as President of the Hellenic Republic since 2015.</p>

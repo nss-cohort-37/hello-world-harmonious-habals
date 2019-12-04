@@ -68,6 +68,7 @@ header {
   top: 150px;
   right: 100px;
   padding: 2px;
+  text-align: center;
 }
 .content__leaders {
   border-radius: 5px;
@@ -102,7 +103,10 @@ aside {
   border: 1px solid red;
   padding: 0 5px;
 }
-
+.info-pic-size {
+  width: 50em;
+  height: 10em;
+}
 /* nav span {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -130,10 +134,10 @@ aside {
   text-decoration: none;
 }
 
-.thumbnail span img {
-  /*CSS for enlarged image*/
+/* .thumbnail span img {
+  CSS for enlarged image
   border-width: 0px;
-}
+} */
 
 .thumbnail:hover span {
   /*CSS for enlarged image on hover*/

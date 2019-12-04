@@ -16,14 +16,6 @@ const InitializeBtns = () => {
       dialogElement.showModal();
     });
   });
-
-  const popUp = document.querySelectorAll(".popUp");
-  popUp.forEach(pop => {
-    pop.addEventListener("click", event => {
-      const dialogElement = event;
-      dialogElement.showModal();
-    });
-  });
 };
 
 export default InitializeBtns;

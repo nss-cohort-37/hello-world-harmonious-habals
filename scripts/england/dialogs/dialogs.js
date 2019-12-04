@@ -1,11 +1,29 @@
-const imgPopUps = () => {
-  const liSelector = document.querySelectorAll(".targetThis");
-
-  for (const li of liSelector) {
-    li.addEventListener("click", theClickEvent => {
-      document.querySelector(".england__img").style.display = "block";
+const InitializeBtns = () => {
+  const allCloseBtns = document.querySelectorAll("button[id^='close--']");
+  allCloseBtns.forEach(btn => {
+    btn.addEventListener("click", event => {
+      const dialogElement = event.target.parentNode;
+      dialogElement.close();
     });
-  }
+  });
+
+  const allOpenBtns = document.querySelectorAll("button[id^='open--']");
+  allOpenBtns.forEach(btn => {
+    btn.addEventListener("click", event => {
+      const dialogElement = document.querySelector(
+        `#${event.target.id} + dialog`
+      );
+      dialogElement.showModal();
+    });
+  });
+
+  const popUp = document.querySelectorAll(".popUp");
+  popUp.forEach(pop => {
+    pop.addEventListener("click", event => {
+      const dialogElement = event;
+      dialogElement.showModal();
+    });
+  });
 };
 
-export default imgPopUps;
+export default InitializeBtns;

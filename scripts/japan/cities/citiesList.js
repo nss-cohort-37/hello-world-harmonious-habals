@@ -3,7 +3,7 @@ import CityComponent from "/scripts/japan/cities/cities.js"
 
 const CityListComponent = () => {
 
-  const citiesHTML = document.querySelector(".content__cities")
+  const citiesHTML = document.querySelector(".content")
   const cities = useCities()
 
   citiesHTML.innerHTML += `

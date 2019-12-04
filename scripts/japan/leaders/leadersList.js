@@ -3,7 +3,7 @@ import LeaderComponent from "./leaders.js"
 
 const LeaderListComponent = () => {
 
-  const leadersHTML = document.querySelector(".content__leaders")
+  const leadersHTML = document.querySelector(".content")
   const leaders = useLeaders()
 
   leadersHTML.innerHTML += `

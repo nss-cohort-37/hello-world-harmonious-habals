@@ -3,7 +3,7 @@ import LandmarkComponent from "./landmarks.js"
 
 const LandmarkListComponent = () => {
 
-  const landmarksHTML = document.querySelector(".content__landmarks")
+  const landmarksHTML = document.querySelector(".content")
   const landmarks = useLandmarks()
 
   landmarksHTML.innerHTML += `

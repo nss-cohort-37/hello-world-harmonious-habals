@@ -1,3 +1,3 @@
-import highlightBackgroundColor from "/highlight.js";
+import highlightBackgroundColor from "./highlight.js";
 
 highlightBackgroundColor();

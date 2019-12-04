@@ -2,7 +2,7 @@ const CitiesComponent = cities => {
   return `
   <section class="content__cities highlight">
   <h3>Cities</h3>
-  <button id="open--${cities.title}">Details</button>
+  <button id="open--${cities.titles}">Details</button>
   
   <dialog class="content__cities dialog">
     <ul>

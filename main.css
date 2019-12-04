@@ -79,7 +79,8 @@ header {
 }
 
 .content h3 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font: italic 1.5em "Fira Sans", serif;
   /* font-weight: bold; */
   text-align: left;
   /* font: italic 1.2em "Fira Sans", serif; */

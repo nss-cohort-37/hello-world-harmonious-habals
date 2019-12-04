@@ -1,11 +1,11 @@
-import citiesListComponent from "./cities/citiesList.js";
-import landmarksListComponent from "./landmarks/landmarksList.js";
-import leadersListComponent from "./leaders/leadersList.js";
+import CitiesListComponent from "./cities/CitiesListComponent.js";
+import InitializeBtns from "./dialogs/dialogs.js";
 import highlightBackgroundColor from '/highlight.js';
-import imgPopUps from "./dialogs/dialogs.js";
+import LandmarkListComponent from "./landmarks/LandmarksListComponent.js";
+import LeadersListComponent from "./leaders/LeadersListComponent.js";
 
-citiesListComponent();
-landmarksListComponent();
-leadersListComponent();
+CitiesListComponent();
+LandmarkListComponent();
+LeadersListComponent();
+InitializeBtns();
 highlightBackgroundColor();
-imgPopUps();

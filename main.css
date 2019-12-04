@@ -28,6 +28,7 @@ header {
   flex-wrap: wrap;
   flex-basis: 75%;
   justify-content: space-evenly;
+  text-align: center;
   /* background-color: lightsalmon; */
 }
 
@@ -58,6 +59,15 @@ header {
   background-color: lightsalmon;
   font: italic 1.2em "Fira Sans", serif;
 }
+.content__leaders {
+  border-radius: 5px;
+  border: 1px solid red;
+  padding: 0 5px;
+  flex-basis: 25%;
+  background-color: lightsalmon;
+  font: italic 1.2em "Fira Sans", serif;
+}
+
 .dialog {
   padding: 2.5em;
   height: 220px;
@@ -69,20 +79,11 @@ header {
   right: 100px;
   padding: 2px;
 }
-.content__leaders {
-  border-radius: 5px;
-  border: 1px solid red;
-  padding: 0 5px;
-  flex-basis: 25%;
-  background-color: lightsalmon;
-  font: italic 1.2em "Fira Sans", serif;
-}
-
 .content h3 {
   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
   font: italic 1.5em "Fira Sans", serif;
   /* font-weight: bold; */
-  text-align: left;
+  text-align: center;
   /* font: italic 1.2em "Fira Sans", serif; */
 }
 
@@ -115,7 +116,7 @@ aside {
 }
 
 .thumbnail:hover {
-  color: darkgoldenrod;
+  color: white;
   text-decoration: none;
 }
 

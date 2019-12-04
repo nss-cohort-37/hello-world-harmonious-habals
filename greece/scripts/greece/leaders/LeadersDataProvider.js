@@ -1,7 +1,8 @@
 const collectionOfLeaders = [
   {
     title: "Leaders",
-    headOfState: "Prokopis Pavlopoulos"
+    headOfState: "Prokopis Pavlopoulos",
+    image: "/greece/assets/leaders/prokopis-pavlopoulos.jpg"
   }
 ];
 

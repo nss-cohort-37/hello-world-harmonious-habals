@@ -4,22 +4,24 @@ const LeaderComponent = (leaders) => {
     <h3>Heads of State</h3>
     <button id="open--${leaders.title}">Details</button>
 
-    <dialog class="content__leaders dialog">
+    <dialog class="content__leaders dialog japan_dialog">
       <ul>
         <span class="thumbnail">
           <li>${leaders.leader_1}</li>
           <span>
-            <image src="${leaders.image_1}" alt="${leaders.alt_text_1}" />
+            <image class="info-pic-size" src="${leaders.image_1}" alt="${leaders.alt_text_1}" />
             <br>
             <h4>${leaders.leader_1}</h4>
             <p>${leaders.text_1}</p>
           </span>
         </span>
 
+        <br>
+
         <span class="thumbnail">
           <li>${leaders.leader_2}</li>
           <span>
-            <image src="${leaders.image_2}" alt="${leaders.alt_text_2}" />
+            <image class="info-pic-size" src="${leaders.image_2}" alt="${leaders.alt_text_2}" />
             <br>
             <h4>${leaders.leader_2}</h4>
             <p>${leaders.text_2}</p>

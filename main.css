@@ -58,7 +58,17 @@ header {
   background-color: lightsalmon;
   font: italic 1.2em "Fira Sans", serif;
 }
-
+.dialog {
+  padding: 2.5em;
+  height: 220px;
+  width: 200px;
+}
+.btn {
+  position: relative;
+  top: 150px;
+  right: 100px;
+  padding: 2px;
+}
 .content__leaders {
   border-radius: 5px;
   border: 1px solid red;
@@ -97,3 +107,38 @@ aside {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
   } */
+
+.thumbnail {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.thumbnail:hover {
+  color: darkgoldenrod;
+  text-decoration: none;
+}
+
+.thumbnail span {
+  /*CSS for enlarged image*/
+  position: absolute;
+  background-color: goldenrod;
+  padding: 5px;
+  border: 1px solid gray;
+  visibility: hidden;
+  color: black;
+  text-decoration: none;
+}
+
+.thumbnail span img {
+  /*CSS for enlarged image*/
+  border-width: 0px;
+}
+
+.thumbnail:hover span {
+  /*CSS for enlarged image on hover*/
+  visibility: visible;
+  width: 500px;
+  top: -220px; /* use IF IE6 style to correct IE6 positions of larger image relative to thumb */
+  left: 170px; /*position where enlarged image should offset horizontally */
+}
